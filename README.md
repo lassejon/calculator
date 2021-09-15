@@ -1,6 +1,7 @@
 # calculator
 
-To do: //
+To do:
+
 Need to handle the ealution that is prevNum + current + current, so that it doesn't evaluate on the empty current.
 
 Need to handle division by 0.
