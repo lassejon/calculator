@@ -5,38 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/app.js"></script>
+    <script src="js/app.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     <div class="calculator-box">
         <div class="screen">
-
+            <div id="prev" type="screen">
+                <div id="num"></div>
+                <div id="operator-sign"></div>
+            </div>
+            <div id="result" type="screen">0</div>
         </div>
         <div class="control-buttons">
             <button id="clear">CLEAR</button>
             <button id="delete">DELETE</button>
         </div>
         <div class="char-buttons">
-            <button>5</button>
-            <button>8</button>
-            <button>9</button>
-            <button>÷</button>
+            <button type="number">7</button>
+            <button type="number">8</button>
+            <button type="number">9</button>
+            <button type="operator">÷</button>
 
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>x</button>
+            <button type="number">4</button>
+            <button type="number">5</button>
+            <button type="number">6</button>
+            <button type="operator">x</button>
 
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>-</button>
+            <button type="number">1</button>
+            <button type="number" value="2">2</button>
+            <button type="number" value="3">3</button>
+            <button type="operator" value="-">-</button>
 
-            <button>.</button>
-            <button>0</button>
-            <button>=</button>
-            <button>+</button>
+            <button type="number" value=".">.</button>
+            <button type="number" value="0">0</button>
+            <button type="equals" value="=">=</button>
+            <button type="operator" value="+">+</button>
         </div>
     </div>
 </body>
